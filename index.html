@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flow — Focus Made Simple</title>
+  <meta name="description" content="Flow помогает сфокусироваться и достичь целей. Портфолио разработчика.">
+  <link rel="icon" href="images/Logo.jpg">
+  <link rel="stylesheet" href="style.css" />
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" 
+    rel="stylesheet"
+  >
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <!-- Фоновые частицы -->
+  <canvas id="bgParticles"></canvas>
+
+  <!-- Header -->
+  <header>
+    <div class="mainHeader">
+      <div class="container">
+        <div class="logo">Flow</div>
+        <nav>
+          <div class="nav-links">
+            <a href="#features">Функции</a>
+            <a href="#about">О нас</a>
+            <a href="#download" class="btn">Скачать</a>
+            <label class="theme-switch">
+              <input type="checkbox" id="toggle-theme" aria-label="Сменить тему">
+              <span class="slider"></span>
+            </label>
+          </div>
+          <button class="burger" id="burger-menu" aria-label="Меню">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content container">
+      <h1>
+        Stay in Flow.<br>
+        <span>Focus made simple.</span>
+      </h1>
+      <p>Flow помогает тебе сосредоточиться на главном и достигать целей без стресса.</p>
+      <a href="#download" class="btn primary">Начни день с Flow</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Почему Flow?</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Управление временем</h3>
+          <p>Создавай фокус-сессии и следи за продуктивностью в реальном времени.</p>
+        </div>
+        <div class="card">
+          <h3>Минимализм</h3>
+          <p>Никаких отвлекающих элементов — только ты и твои цели.</p>
+        </div>
+        <div class="card">
+          <h3>Аналитика</h3>
+          <p>Отслеживай статистику концентрации и улучшай свои результаты.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Preview Section -->
+  <section id="about" class="preview">
+    <div class="container">
+      <div class="content">
+        <h2>Работай осознанно</h2>
+        <p>
+          Flow помогает тебе находиться в состоянии потока, когда всё получается само собой.
+          Мягкий интерфейс, глубокий фокус, чистый дизайн — всё ради продуктивности.
+        </p>
+        <a href="#download" class="btn primary">Узнать больше</a>
+      </div>
+    </div>
+  </section>
+
+<!-- Screenshots Section -->
+<section id="screenshots" class="screenshots">
+  <div class="container">
+    <h2>Скриншоты приложения</h2>
+    <div class="screenshots-grid">
+      <div class="screenshot-card">
+        <img src="images/MainScreen.jpg" alt="Главный экран Flow" />
+        <div class="screenshot-caption">Главный экран</div>
+      </div>
+      <div class="screenshot-card">
+        <img src="images/Tasks.jpg" alt="Экран задач" />
+        <div class="screenshot-caption">Экран задач</div>
+      </div>
+      <div class="screenshot-card">
+        <img src="images/Timer.jpg" alt="Таймер" />
+        <div class="screenshot-caption">Таймер</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="testimonials">
+    <div class="container">
+      <h2>Отзывы пользователей</h2>
+      <div class="grid testimonials-grid">
+        <div class="testimonial-card">
+          <p>“Flow помогает мне концентрироваться и не выгорать. Приложение реально изменило мой рабочий день.”</p>
+          <span>— Анна, дизайнер</span>
+        </div>
+        <div class="testimonial-card">
+          <p>“Минимализм и аналитика — всё, что нужно. Flow теперь мой постоянный спутник.”</p>
+          <span>— Алексей, разработчик</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section -->
+  <section id="download" class="cta">
+    <div class="container">
+      <h2>Готов начать?</h2>
+      <p>
+        Flow доступен бесплатно. Присоединяйся к тысячам пользователей, которые уже работают продуктивнее.
+      </p>
+      <a href="#" class="btn primary">Скачать приложение</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-container">
+      <div class="footer-links">
+        <a href="mailto:hello@flowapp.io" class="footer-link">hello@flowapp.io</a> |
+        <a href="#" class="footer-link">GitHub</a> |
+        <a href="#" class="footer-link">Twitter</a> |
+        <a href="#" class="footer-link">Telegram</a>
+      </div>
+      <div class="footer-copy">
+        © 2025 Flow. Все права защищены.
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
